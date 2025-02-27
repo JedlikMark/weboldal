@@ -73,6 +73,31 @@ section p {
     color: #666;
 }
 
+
+.flex{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+} 
+
+.nenezzenkiszarul{
+    width: 50%;
+}
+
+.flex2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.kep:hover {
+    transform: scale(120%);
+    transition: transform 0.3s ease;
+    transition-delay: 5ms;
+}
+
 footer {
     background-color: #333;
     color: #fff;
